@@ -4,7 +4,8 @@ The Lost and Found App simplifies the hassle of traditional lost and found syste
 
 Key Features
 Our application allows users to upload the post with pictures by using MySQL server. Users can post their requirement for lost goods or seeking for person who lost something. Administrator can approve these posts and delete them.
-![image](https://github.com/user-attachments/assets/807dc59a-ffa6-4185-9afd-3b2863507f55)
+![image](https://github.com/user-attachments/assets/1844cff5-b96f-4f6d-9e41-2ae2049e4e96)
+
 
 
 Usage Instructions
@@ -15,9 +16,11 @@ Usage Instructions
 1.4 Create a new database use the name lostandfound_db. The command is 'create database lostandfound_db'
 1.5 Use the database by typing the command 'use lostandfound_db'
 1.6 To import all data into this database, we need to find the path to our database file in our computer. Your command would be 'source+path'
-  	![image](https://github.com/user-attachments/assets/b7ddf096-a81a-4d69-a489-19b0c6a01d4c) 
+  ![image](https://github.com/user-attachments/assets/8cc05f6c-c491-497c-b8f8-c973ab4df721)
+
 1.7 change few lines in \LostandFound\Common\ MySQLHelper.cs 
-    ![image](https://github.com/user-attachments/assets/c0178b8a-c4b6-4a15-9f33-4f6b72588c4a)
+  ![image](https://github.com/user-attachments/assets/5fb78c4d-64c8-41ac-9c05-f06c1158ec95)
+
     The uid should be “root” by default and the password is the password that user set for your own MYSQL server.
 
 2.	Use application.
