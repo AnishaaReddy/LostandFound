@@ -11,15 +11,15 @@ Our application allows users to upload the post with pictures by using MySQL ser
 
 Usage Instructions
 1.	Environment set up
-  1.1 To launch this application, it requires a external MySQL local server. 
-  1.2  Once the MySQL server installed, open MySQL Command line Client
-  1.3 Enter password to login.
-  1.4 Create a new database use the name lostandfound_db. The command is 'create database lostandfound_db'
-  1.5 Use the database by typing the command 'use lostandfound_db'
-  1.6 To import all data into this database, we need to find the path to our database file in our computer. Your command would be 'source+path'
+1.1 To launch this application, it requires a external MySQL local server. 
+1.2  Once the MySQL server installed, open MySQL Command line Client
+1.3 Enter password to login.
+1.4 Create a new database use the name lostandfound_db. The command is 'create database lostandfound_db'
+1.5 Use the database by typing the command 'use lostandfound_db'
+1.6 To import all data into this database, we need to find the path to our database file in our computer. Your command would be 'source+path'
       ![image](https://github.com/user-attachments/assets/8cc05f6c-c491-497c-b8f8-c973ab4df721)
 
-  1.7 change few lines in \LostandFound\Common\ MySQLHelper.cs 
+1.7 Change few lines in \LostandFound\Common\ MySQLHelper.cs 
       ![image](https://github.com/user-attachments/assets/5fb78c4d-64c8-41ac-9c05-f06c1158ec95)
       The uid should be “root” by default and the password is the password that user set for your own MYSQL server.
 
