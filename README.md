@@ -3,6 +3,7 @@
 The Lost and Found App simplifies the hassle of traditional lost and found systems, eliminating tedious paperwork and long wait times. It provides a central platform where users can report lost items and search for their belongings with ease. To maintain community standards, an admin reviews posts before they go live. With a user-friendly interface, the app encourages active participation, helping people recover anything from phones and jewelry to even lost pets.
 
 Key Features
+
 Our application allows users to upload the post with pictures by using MySQL server. Users can post their requirement for lost goods or seeking for person who lost something. Administrator can approve these posts and delete them.
 ![image](https://github.com/user-attachments/assets/1844cff5-b96f-4f6d-9e41-2ae2049e4e96)
 
@@ -23,7 +24,7 @@ Usage Instructions
 
     The uid should be “root” by default and the password is the password that user set for your own MYSQL server.
 
-2.	Use application.
+2.	How to use?
   
 We will see a login page once we open the application. To use the admin function, we need to login with account “admin” and password “123” and switch the role to admin. To login in as a user, we can simply use a test account “user” and password “123” or register a new account. 
 
